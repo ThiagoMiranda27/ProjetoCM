@@ -46,7 +46,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <SearchView
+<<<<<<< HEAD
         android:id="@+id/search"
+=======
+        android:id="@+id/searchView"
+>>>>>>> 2eb4d376af10fc42de97c24a05d6a0d6e75aadb4
         android:layout_width="394dp"
         android:layout_height="51dp"
         android:layout_marginStart="8dp"

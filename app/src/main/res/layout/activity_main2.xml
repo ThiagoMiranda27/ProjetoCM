@@ -75,7 +75,11 @@
         android:text="Loja"
         android:textSize="30sp"
         android:textStyle="bold"
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/search"
+=======
+        app:layout_constraintBottom_toTopOf="@+id/searchView"
+>>>>>>> 2eb4d376af10fc42de97c24a05d6a0d6e75aadb4
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +87,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <SearchView
+<<<<<<< HEAD
         android:id="@+id/search"
+=======
+        android:id="@+id/searchView"
+>>>>>>> 2eb4d376af10fc42de97c24a05d6a0d6e75aadb4
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -104,7 +112,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.235"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/search"
+=======
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+>>>>>>> 2eb4d376af10fc42de97c24a05d6a0d6e75aadb4
         app:layout_constraintVertical_bias="0.648"
         app:srcCompat="@android:drawable/bottom_bar" />
 
@@ -145,7 +157,11 @@
         app:layout_constraintBottom_toTopOf="@+id/imageButton5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/search"
+=======
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+>>>>>>> 2eb4d376af10fc42de97c24a05d6a0d6e75aadb4
         app:layout_constraintVertical_bias="1.0"
         tools:text="senha" />
 
@@ -163,7 +179,11 @@
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/search"
+=======
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+>>>>>>> 2eb4d376af10fc42de97c24a05d6a0d6e75aadb4
         app:layout_constraintVertical_bias="0.947" />
 
     <TextView

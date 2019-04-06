@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+<<<<<<< HEAD
 import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -14,9 +15,19 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+=======
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+
+import static android.provider.AlarmClock.EXTRA_MESSAGE;
+>>>>>>> 2eb4d376af10fc42de97c24a05d6a0d6e75aadb4
 
 public class MainActivity extends AppCompatActivity {
     private int NOTIFICATION_PERMISSION_CODE = 1;
+
 
 
     @Override
@@ -63,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+<<<<<<< HEAD
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if(requestCode == NOTIFICATION_PERMISSION_CODE) {
@@ -74,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+=======
+>>>>>>> 2eb4d376af10fc42de97c24a05d6a0d6e75aadb4
     public void sendMessage(View view){
         Intent intent = new Intent(this, Main2Activity.class);
         startActivity(intent);
