@@ -62,7 +62,7 @@
         app:layout_constraintVertical_bias="0.121" />
 
     <ListView
-        android:id="@+id/itens"
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="520dp"
         android:layout_marginStart="8dp"
@@ -71,10 +71,8 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.958" />
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
 
     <ImageButton
         android:id="@+id/banner"
