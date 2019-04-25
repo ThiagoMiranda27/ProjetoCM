@@ -9,6 +9,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -20,6 +21,8 @@ import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
+
     private int NOTIFICATION_PERMISSION_CODE = 1;
 
     int[] IMAGES = {R.drawable.gabinete, R.drawable.memoria, R.drawable.placa_de_video, R.drawable.processador};
@@ -31,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        Log.w(TAG,"App ainda em teste");
 
         ImageButton banner = findViewById(R.id.banner);
         banner.setOnClickListener(new View.OnClickListener() {
